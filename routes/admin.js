@@ -9,7 +9,10 @@ router.get('/',(req,res)=>{
 });
 
 router.get('/products',(req, res)=>{
-  res.send('product url입니다.');
+ // res.send('product url입니다.');
+ res.render('admin/products.html',{
+   message : "hello!!!!!!!!!!!!!!!!!!!"
+ });
 });
 
 //내보내기
