@@ -1,0 +1,15 @@
+{
+  "name": "learn-express",
+  "version": "1.0.0",
+  "description": "express 공부",
+  "main": "index.js",
+  "scripts": {
+    "start" : "npx nodemon app.js",
+    "dev" : "npx nodemon app.js"
+  },
+  "author": "seolmin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
